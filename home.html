@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <meta name="description" content="Responsive Bootstrap HTML Mobile Application Template - Free Download">
+  <title>Yaami Food Ordering App</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/et-line-font-plugin/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  <script language=javascript>
+<!--//
+
+function dm(amount) 
+{
+  string = "" + amount;
+  dec = string.length - string.indexOf('.');
+  if (string.indexOf('.') == -1)
+  return string + '.00';
+  if (dec == 1)
+  return string + '00';
+  if (dec == 2)
+  return string + '0';
+  if (dec > 3)
+  return string.substring(0,string.length-dec+3);
+  return string;
+}
+
+
+
+function calculate()
+{
+
+  QtyA = 0;  QtyB = 0;  QtyC = 0;
+  TotA = 0;  TotB = 0;  TotC = 0;
+
+  PrcA = 1.25; PrcB = 2.35; PrcC = 3.45;
+
+ 
+ 
+  if (document.ofrm.qtyA.value > "")
+     { QtyA = document.ofrm.qtyA.value };
+  document.ofrm.qtyA.value = eval(QtyA);  
+ 
+  if (document.ofrm.qtyB.value > "")
+     { QtyB = document.ofrm.qtyB.value };
+  document.ofrm.qtyB.value = eval(QtyB);  
+ 
+  if (document.ofrm.qtyC.value > "")
+     { QtyC = document.ofrm.qtyC.value };
+  document.ofrm.qtyC.value = eval(QtyC);
+ 
+ 
+  TotA = QtyA * PrcA;
+  document.ofrm.totalA.value = dm(eval(TotA));
+ 
+  TotB = QtyB * PrcB;
+  document.ofrm.totalB.value = dm(eval(TotB));
+ 
+  TotC = QtyC * PrcC;
+  document.ofrm.totalC.value = dm(eval(TotC));
+ 
+ 
+  Totamt = 
+     eval(TotA) +
+     eval(TotB) +
+     eval(TotC) ;
+    
+  document.ofrm.GrandTotal.value = dm(eval(Totamt));
+alert("total amount " + Totamt);
+  
+} 
+ 
+
+//-->
+</script>
+
+
+
+
+    <script>
+    window.webtrendsAsyncInit=function(){
+        var dcs=new Webtrends.dcs().init({
+            dcsid:"dcs37pv2c00000oun93vypyva_4k6d",
+            domain:"www.qsstats.com",
+            timezone:-8,
+            i18n:true,
+            onsitedoms:"htmlgoodies.com",
+            fpcdom:".htmlgoodies.com",
+            plugins:{
+                //hm:{src:"//s.webtrends.com/js/webtrends.hm.js"}
+            }
+            }).track();
+    };
+    (function(){
+        var s=document.createElement("script"); s.async=true; s.src="/imageserver/common/v10/webtrends.min.js";    
+        var s2=document.getElementsByTagName("script")[0]; s2.parentNode.insertBefore(s,s2);
+    }());
+    </script>
+    <noscript><img alt="dcsimg" id="dcsimg" width="1" height="1" src="//www.qsstats.com/dcs37pv2c00000oun93vypyva_4k6d/njs.gif?dcsuri=/legacy/beyond/webmaster/projects/3withcotf3.html&amp;WT.js=No&amp;WT.tv=10.4.1&amp;dcssip=www.htmlgoodies.com&amp;WT.qs_dlk=WV-9tArIZ70AADCKS@sAAAAF&"/></noscript>
+  
+</head>
+<body>
+<div id="menu-0" custom-code="true"><section>
+
+    <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
+        <div class="container">
+
+            <div class="mbr-table">
+                <div class="mbr-table-cell">
+
+                    
+                        
+                        <a class="navbar-caption" href="../index.html">YAAMI FOOD ORDERING APP</a>
+                    
+
+                </div>
+                <div class="mbr-table-cell">
+
+                    <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="hamburger-icon"></div>
+                    </button>
+
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link mbr-editable-menu-item" href="index.html#header3-m">Food Ordering</a></li><li class="nav-item"><a class="nav-link link mbr-editable-menu-item" href="index.html#pricing-table2-f"><strong>About Us</strong></a></li>
+
+                  
+                    </ul>
+                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="close-icon"></div>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+</section>
+
+<section class="mbr-section mbr-section-hero mbr-section-full header2 mbr-parallax-background mbr-after-navbar" id="header2-1" style="background-image: url(assets/images/f-mwo-dznni-averie-woodard-2000x2000.jpg);">
+
+    <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(71, 85, 119);">
+    </div>
+
+    <div class="mbr-table mbr-table-full">
+        <div class="mbr-table-cell">
+
+            <div class="container">
+                <div class="mbr-section row">
+                    <div class="mbr-table-md-up">
+                        
+                        
+                        
+
+                        <div class="mbr-table-cell col-md-5 content-size text-xs-center text-md-right">
+
+                            
+                            <div class="mbr-section-text">
+                                <p>This app is made by </p>
+                            </div>
+
+                            <div class="mbr-section-btn"><a class="btn btn-black" href="https://mobirise.com">Amita</a> <a class="btn btn-black" href="https://mobirise.com">Mariya</a> </div>
+
+                        </div>
+                        <div class="mbr-table-cell mbr-valign-top mbr-left-padding-md-up col-md-7 image-size" style="width: 50%;">
+                            <div class="mbr-figure"><img src="cuisine.jpg"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mbr-arrow mbr-arrow-floating hidden-sm-down" aria-hidden="true"><a href="#header3-k"><i class="mbr-arrow-icon"></i></a></div>
+
+</section>
+
+
+<section class="mbr-section mbr-section__container article" id="header3-k" style="background-color: rgb(244, 244, 244); padding-top: 60px; padding-bottom: 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="mbr-section-title display-2">Popular Cuisines</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-cards mbr-section mbr-section-nopadding" id="features1-e" style="background-color: rgb(244, 244, 244);">
+
+        
+
+    <div class="mbr-cards-row row striped">
+
+        
+
+
+        <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 80px; padding-bottom: 80px;">
+            <div class="container">
+                <div class="card cart-block">
+                    <div class="card-img"><img src="indian.jpg" class="card-img-top"></div>
+                    <div class="card-block">
+                        <h4 class="card-title">Indian Cuisine</h4>
+                        
+                        <p class="card-text">Indian cuisine encompasses a wide variety of regional and traditional cuisines native to India.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 80px; padding-bottom: 80px;">
+            <div class="container">
+                <div class="card cart-block">
+                    <div class="card-img"><img src="chinese.jpeg" class="card-img-top"></div>
+                    <div class="card-block">
+                        <h4 class="card-title">Chinese Cuisine</h4>
+                                                <p class="card-text">Chinese cuisine is an important part of Chinese culture, which includes cuisine originating from the diverse regions of China, as well as from Chinese people in other parts of the world.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 80px; padding-bottom: 80px;">
+            <div class="container">
+                <div class="card cart-block">
+                    <div class="card-img"><img src="japanese.jpg" class="card-img-top"></div>
+                    <div class="card-block">
+                        <h4 class="card-title">Japanese Cuisine</h4>
+                                             <p class="card-text">Japanese cuisine encompasses the regional and traditional foods of Japan, which have developed through centuries of social and economic changes.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</section>
+<section class="mbr-section mbr-section__container article" id="header3-m" style="background-color: rgb(244, 244, 244); padding-top: 60px; padding-bottom: 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="mbr-section-title display-2">Choose from the products</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mbr-section article mbr-section__container" id="content1-j" style="background-color: rgb(244, 244, 244); padding-top: 20px; padding-bottom: 20px;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 lead">
+<form name="ofrm" method="POST" >
+	
+	<table border="0" cellpadding="0" width="550" id="table1">
+		
+		
+		<tr>
+			<td width="340" align="right">&nbsp;</td>
+			<td width="10">&nbsp;</td>
+			<td width="200">&nbsp;</td>
+		</tr>
+	</table>
+
+	<table border="0" cellpadding="0" width="550" id="table2">
+		<tr>
+			<td width="250" height="31"><b>Item Description</b></td>
+			<td align="center" width="100" height="31"><b>Quantity</b></td>
+			<td align="right" height="31" width="60"><b>Price </b></td>
+			<td align="right" height="31" width="140"><b>Total</b></td>
+		</tr>
+
+		<tr>
+			<td width="250">Chicken Biriyani</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyA" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">4.25</td>
+			<td align="right" width="140">
+			<input type="text" name="totalA" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Kothu Rotti</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyB" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">5.35</td>
+			<td align="right" width="140">
+			<input type="text" name="totalB" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Masala Dosa</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">3.45</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Kerala Dosa</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">1.45</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+		
+		<tr>
+			<td width="250">Beef Biriyani</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">4.99</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+			
+		<tr>
+			<td width="250">Chicken Friedrice</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">6.45</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Vegitable Friedrice</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">5.45</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Vegitable Meal</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">3.45</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Butter Chicken</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">5.99</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+		<tr>
+			<td width="250">Chilli Chicken</td>
+			<td align="center" width="100">
+			<input type="text" name="qtyC" size="5" tabindex="5" onchange="calculate()"></td>
+			<td align="right" width="60">5.69</td>
+			<td align="right" width="140">
+			<input type="text" name="totalC" size="12" tabindex="99" onchange="calculate()"></td>
+		</tr>
+
+
+		<tr>
+			<td width="250">&nbsp;</td>
+			<td align="center" width="100">&nbsp;</td>
+			<td align="right" width="60">&nbsp;</td>
+			<td align="right" width="140">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="250">
+			<p align="right"><b>TOTAL : </b></td>
+			<td align="center" width="100">&nbsp;</td>
+			<td align="right" width="60">&nbsp;</td>
+			<td align="right" width="140">
+			<input type="text" name="GrandTotal" size="15" tabindex="99" onchange="calculate()"></td>
+		</tr>
+		<tr>
+			<td width="250">&nbsp;</td>
+			<td align="center" width="100">&nbsp;</td>
+			<td align="right" width="60">&nbsp;</td>
+			<td align="right" width="140">&nbsp;</td>
+		</tr>
+	</table>
+	<p>&nbsp;</p>
+	<table border="0" cellpadding="0" width="550" id="table3">
+		<tr>
+			<td width="563">
+			<p align="center">
+			
+		</tr>
+	</table>
+</form>
+
+&nbsp;</div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section" id="msg-box4-6" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 120px;">
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="mbr-table-md-up">
+
+              
+
+              <div class="mbr-table-cell col-md-5 text-xs-center text-md-right content-size">
+                  <h3 class="mbr-section-title display-2">A SHORT VIDEO TUTORIAL</h3>
+                  <div class="lead">
+
+                    <p>How to make one of our restaurant's popular dish..!!</p>
+
+                  </div>
+
+                  
+              </div>
+
+
+              
+
+
+              <div class="mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 50%;">
+                  <div class="mbr-figure"><iframe class="mbr-embedded-video"   src="https://youtube.com/embed/mOuF3axQSLg"  width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="mbr-section mbr-background" id="testimonials1-7" style="background-image: url(assets/images/mbr-2000x1333.jpg); padding-top: 120px; padding-bottom: 120px;">
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);">
+    </div>
+
+        <div class="mbr-section mbr-section__container mbr-section__container--middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-xs-center">
+                        <h3 class="mbr-section-title display-2">WHAT OUR FANTASTIC USERS SAY</h3>
+                        <small class="mbr-section-subtitle">Stay Home...Order Online....Enjoy Your Food</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="mbr-testimonials mbr-section mbr-section-nopadding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-lg-4">
+
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="card-block"><p>“its really very amazing app that comes in very handy when I don't want to leave my home.”</p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="assets/images/ellejmi6dqy-abigail-sisson-160x160.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">Abanoub S.</div>
+                            
+                        </div>
+                    </div>
+                </div><div class="col-xs-12 col-lg-4">
+
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="card-block"><p>“First of all hands off to you guys for your effort and nice, super tool. Your app has helped me to have my favourite food from your restaurant.”</p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="assets/images/fcuj-bvjrrs-alicja-koczaska-160x160.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">Suffian A.</div>
+                            
+                        </div>
+                    </div>
+                </div><div class="col-xs-12 col-lg-4">
+
+                    <div class="mbr-testimonial card mbr-testimonial-lg">
+                        <div class="card-block"><p>“Thank you for making my life easier. I love your app very much and appreciate your efforts.”</p></div>
+                        <div class="mbr-author card-footer">
+                            <div class="mbr-author-img"><img src="assets/images/fqkbxo2nkq0-sticker-mule-160x160.jpg" class="img-circle"></div>
+                            <div class="mbr-author-name">Jhollman C.</div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="mbr-section" id="pricing-table2-f" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 120px;">
+
+    
+
+    <div class="mbr-section mbr-section__container mbr-section__container--middle">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 text-xs-center">
+                  <h3 class="mbr-section-title display-2">About Us</h3>
+                  <small class="mbr-section-subtitle">Yaami Food Ordering App</small>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="mbr-section mbr-section-nopadding mbr-price-table">
+      <div class="row">
+            <div class="col-xs-12 col-md-6 col-xl-4">
+                <div class="mbr-plan card text-xs-center">
+                    <div class="mbr-plan-header card-block">
+                      
+                      <div class="card-title">
+                        <h3 class="mbr-plan-title">Group Members</h3>
+                        <small class="mbr-plan-subtitle">Details</small>
+                      </div>
+                     <div class="card-img"><img src="img.jpg" class="card-img-top" border = 4 width = 200 height = 200></div>
+			<div class="card-title">
+                        <h3 class="mbr-plan-title">Amita Haridas</h3>
+                        <small class="mbr-plan-subtitle">C0696774</small><br>
+			<small class="mbr-plan-subtitle">amy.haridas@gmail.com</small><br>
+			<small class="mbr-plan-subtitle">647-525-0976</small>
+
+			<h3 class="mbr-plan-title">Mariya Antony</h3>
+                        <small class="mbr-plan-subtitle">C0699105</small><br>
+			<small class="mbr-plan-subtitle">mariyaantony2712@gmail.com</small><br>
+			
+			<small class="mbr-plan-subtitle">437-982-1712</small>
+                      	</div>
+                    </div>
+                   
+           
+                    </div>
+                </div>
+            </div>
+            
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-xs-center">
+                <p>Designed by <a  href="https://mobirise.com" style="color:#333;text-decoration:underline;"> Amita Haridas &amp; Mariya Antony</a></p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
+  <script src="assets/jarallax/jarallax.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>
